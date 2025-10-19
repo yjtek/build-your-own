@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gai-slackbot-test"
+version = "0.1.0"
+description = ""
+authors = ["yongjian.tek <yongjian.tek@grabtaxi.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+slack-sdk = "^3.27.2"
+ipykernel = "^6.29.4"
+flask = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
