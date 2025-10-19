@@ -1,0 +1,16 @@
+/* Each part before curly braces is the component */
+/* Each part within curly braces is css styling for that component */
+
+html {
+    font-size: 22px;
+}
+
+h1 {
+    background-color: blue;
+    color: purple;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+}

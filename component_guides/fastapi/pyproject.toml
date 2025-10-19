@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastapi crash course"
+version = "0.1.0"
+description = ""
+authors = ["yongjian.tek <yongjian.tek@grabtaxi.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.30.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
